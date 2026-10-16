@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>BoogleGame.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Dictionnaires partagés avec le jeu console -->
+    <None Include="..\MotsPossiblesFR.txt" Link="MotsPossiblesFR.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\MotsPossiblesEN.txt" Link="MotsPossiblesEN.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

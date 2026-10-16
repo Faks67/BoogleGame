@@ -16,4 +16,11 @@
     <None Include="Lettres.txt;MotsPossiblesFR.txt;MotsPossiblesEN.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
+  <!-- Le site web est un projet à part -->
+  <ItemGroup>
+    <Compile Remove="BoogleGame.Web\**" />
+    <Content Remove="BoogleGame.Web\**" />
+    <None Remove="BoogleGame.Web\**" />
+  </ItemGroup>
+
 </Project>
